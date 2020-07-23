@@ -9,9 +9,9 @@
   "author": "Saurabh Singh",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "express-graphql": "^0.11.0",
-    "graphql": "^15.3.0",
-    "lodash": "^4.17.19"
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.1",
+    "lodash": "^4.17.5"
   }
 }
