@@ -24,11 +24,7 @@ class BookDetails extends Component {
     }
   }
   render() {
-    return (
-      <div id="book-details">
-        <p>{this.displayBookDetails()}</p>
-      </div>
-    );
+    return <div id="book-details">{this.displayBookDetails()}</div>;
   }
 }
 
