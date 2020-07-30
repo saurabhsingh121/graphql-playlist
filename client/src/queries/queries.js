@@ -28,11 +28,11 @@ export const addBookMutation = gql`
 `;
 
 export const getBookQuery = gql`
-  query($id: ID) {
+  query($id: ID, $showBook: Boolean!, $showGenre: Boolean!) {
     book(id: $id) {
       id
-      name
-      genre
+      name @include(if: $showBook)
+      genre @include(if: $showGenre)
       author {
         id
         name

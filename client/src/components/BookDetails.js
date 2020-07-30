@@ -33,6 +33,8 @@ export default graphql(getBookQuery, {
     return {
       variables: {
         id: props.bookId,
+        showGenre: props.showGenre,
+        showBook: props.showBook,
       },
     };
   },
